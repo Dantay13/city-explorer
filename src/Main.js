@@ -59,6 +59,7 @@ class Main extends React.Component {
                 {this.state.displayInfo &&
                     <>
                         <h2>{this.state.cityData.display_name}</h2>
+                        <p>Lat:{this.state.cityData.lat} Lon:{this.state.cityData.lon}</p>
                     </>
                 }
             </>
