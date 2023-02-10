@@ -24,11 +24,11 @@ class Main extends React.Component {
         this.setState({
             city: cityName
         },
-        () => console.log(this.state.city)
+            () => console.log(this.state.city)
         )
     }
 
-    displaySearch = async(e) => {
+    displaySearch = async (e) => {
         e.preventDefault();
 
         let url = `https://us1.locationiq.com/v1/search?key=${process.env.REACT_APP_LOCATIONIQ_KEY}&q=${this.state.city}&format=json`
@@ -50,7 +50,7 @@ class Main extends React.Component {
                     <Form>
                         <Form.Group>
                             <Form.Label>Enter City</Form.Label>
-                            <Form.Control type="text" onInput={this.handleSearchInput}/>
+                            <Form.Control type="text" onInput={this.handleSearchInput} />
                         </Form.Group>
                         <Button onClick={this.displaySearch}>Explore!</Button>
                     </Form>
@@ -60,6 +60,8 @@ class Main extends React.Component {
                     <>
                         <h2>{this.state.cityData.display_name}</h2>
                         <p>Lat:{this.state.cityData.lat} Lon:{this.state.cityData.lon}</p>
+                        <img src={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIQ_KEY}&center=${this.state.cityData.lat},${this.state.cityData.lon}&zoom=5`
+                        } alt={this.props.city} height={500} />
                     </>
                 }
             </>

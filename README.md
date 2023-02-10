@@ -28,8 +28,9 @@
 
 ![Web Request Respond Cycle](src/Asset/Untitled.png "Web Request Respond Cycle)
 
-
 ## Change Log
+
+## Lab 6
 
 Name of feature: Set up your React repository & API keys.
 
@@ -51,6 +52,18 @@ Finish time: 6:30pm
 
 Actual time needed to complete: 2 hours
 
+Name of feature: Map: As a user, I want to see a map of the city so that I can see the layout of the area I want to explore.
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 8:30pm - 9:30pm then 10:30pm
+
+Finish time: 11:30pm
+
+Actual time needed to complete: 2 hours
+
 ## Credit and Collaborations
 
 - Roger Reyes class 6 demo 1/24/2023
+- Roger Reyes assisted me with the Map
+
