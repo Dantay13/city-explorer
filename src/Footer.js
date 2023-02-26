@@ -2,7 +2,7 @@ import React from "react";
 
 class Footer extends React.Component{
   render(){
-    return(<p>Danner Taylor</p>)
+    return(<p> &copy; Danner Taylor 2023</p>)
   }
 }
 
