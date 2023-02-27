@@ -5,7 +5,7 @@ import Header from "./Header";
 import Main from "./Main";
 import './App.css';
 
-class App extends React.Component{
+class App extends React.Component {
   // constructor(props){
   //   super(props);
   //   this.state = {
@@ -22,13 +22,13 @@ class App extends React.Component{
   //   });
   // }
 
-  render(){
-    return(
-    <>
-      <Header/>
-      <Main/>
-      <Footer/>
-      {/* <button onClick={this.get}>Get </button>
+  render() {
+    return (
+      <>
+        <Header />
+        <Main />
+        <Footer />
+        {/* <button onClick={this.get}>Get </button>
       <ul>
         {this.state.something.map((item, idx) =>
           <li key={idx}>
@@ -37,7 +37,7 @@ class App extends React.Component{
           </li>
         )}
       </ul> */}
-    </>
+      </>
     )
   }
 }
